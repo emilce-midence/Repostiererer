@@ -22,6 +22,8 @@ namespace Emilce_Midence___IParcial_Examen
             int desde = Convert.ToInt32(DesdenumericUpDown1.Value);
             int hasta = Convert.ToInt32(HastanumericUpDown2.Value);
             int multiplo = Convert.ToInt32(MultiplotextBox1.Text);
+
+            ListalistBox1.Items.Clear();
             for (int i = desde; i <= hasta; i++)
             {
                 if (i % multiplo == 0)
