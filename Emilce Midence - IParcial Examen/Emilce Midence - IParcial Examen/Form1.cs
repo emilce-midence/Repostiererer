@@ -55,6 +55,13 @@ namespace Emilce_Midence___IParcial_Examen
         private void Salirbutton3_Click(object sender, EventArgs e)
         {
             Close();
+
+        }
+
+        private void btnMenssage_Click(object sender, EventArgs e)
+        {
+            Form2 frm = new Form2();
+            frm.Show();
         }
     }
 }

@@ -41,6 +41,7 @@ namespace Emilce_Midence___IParcial_Examen
             this.Nuevobutton2 = new System.Windows.Forms.Button();
             this.Salirbutton3 = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.btnMenssage = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -145,11 +146,22 @@ namespace Emilce_Midence___IParcial_Examen
             this.listBox1.Size = new System.Drawing.Size(208, 186);
             this.listBox1.TabIndex = 11;
             // 
+            // btnMenssage
+            // 
+            this.btnMenssage.Location = new System.Drawing.Point(607, 350);
+            this.btnMenssage.Name = "btnMenssage";
+            this.btnMenssage.Size = new System.Drawing.Size(124, 23);
+            this.btnMenssage.TabIndex = 12;
+            this.btnMenssage.Text = "Siguiente Formulario";
+            this.btnMenssage.UseVisualStyleBackColor = true;
+            this.btnMenssage.Click += new System.EventHandler(this.btnMenssage_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(773, 441);
+            this.Controls.Add(this.btnMenssage);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.Salirbutton3);
             this.Controls.Add(this.Nuevobutton2);
@@ -183,6 +195,7 @@ namespace Emilce_Midence___IParcial_Examen
         private System.Windows.Forms.Button Nuevobutton2;
         private System.Windows.Forms.Button Salirbutton3;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button btnMenssage;
     }
 }
 
